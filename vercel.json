@@ -1,7 +1,7 @@
 {
   "crons": [
     {
-      "path": "/api/auto-tweet",
+      "path": "/api/corn/auto-tweet",
        "schedule": "*/2 * * * *"
     }
   ]
