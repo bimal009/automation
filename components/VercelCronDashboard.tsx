@@ -45,13 +45,7 @@ export default function VercelCronDashboard() {
         <div className="p-6 max-w-2xl mx-auto bg-white rounded-lg shadow-lg">
             <h2 className="text-2xl font-bold mb-4">Vercel Auto Tweet Dashboard</h2>
 
-            <div className="mb-6 p-4 bg-blue-50 rounded-lg">
-                <h3 className="font-semibold text-blue-800 mb-2">Cron Schedule</h3>
-                <p className="text-blue-700">
-                    Tweets automatically every day at 12:00 PM UTC<br />
-                    <span className="text-sm">Configure in vercel.json: "0 12 * * *"</span>
-                </p>
-            </div>
+
 
             <div className="space-y-3 mb-6">
                 <button
