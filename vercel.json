@@ -2,7 +2,11 @@
   "crons": [
     {
       "path": "/api/auto-tweet",
-      "schedule": "10 14 * * *"
+      "schedule": "10 14 * * *" 
+    },
+    {
+      "path": "/api/auto-tweet",
+      "schedule": "15 6 * * *"   
     }
   ]
 }
